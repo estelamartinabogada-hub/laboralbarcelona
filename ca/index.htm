@@ -1,0 +1,1130 @@
+﻿<!DOCTYPE html>
+<html lang="ca" dir="ltr" xml:lang="ca" class="theme-light mobile-theme-light modul-">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Especialista en acomiadaments, accidents, sancions laborals
+        </title>
+
+        <style>
+            html {
+                --cookienator-primary-color: #000000;
+                --cookienator-primary-color-dimmed: #dddddd;
+            }
+        </style>
+        <script>
+            window.CookienatorSettings = {
+                thirdParties: true,
+                placeholder: true,
+                cookiesPolicyUrl: '/ca/politica-de-cookies',
+                whiteList: [/^data:image\/svg\+xml/, /^blob:/, /^data:/, /gestionaweb\.cat/, /recaptcha/, /recaptcha\.net/, /vz-49f9ecdf-f80\.b-cdn\.net/, /analytics\.google\.com/],
+                forceRefreshOnAccept: false,
+                providers : ["gstatic.com","google-analytics.com","fonts.googleapis.com","www.recaptcha.net","gestionaweb.cat","openstreetmap.org"]
+                            };
+        </script>
+        <script>!function(e){"function"==typeof define&&define.amd?define(e):e()}((function(){"use strict";var e=function(){return e=Object.assign||function(e){for(var t,n=1,o=arguments.length;n<o;n++)for(var i in t=arguments[n])Object.prototype.hasOwnProperty.call(t,i)&&(e[i]=t[i]);return e},e.apply(this,arguments)};"function"==typeof SuppressedError&&SuppressedError;var t,n=(t=document.createElement("a"),function(e){return t.href=e,location.hostname===t.hostname}),o=(document.createElement("a"),function(e){return/^chrome-extension:/i.test(e)}),i=function(e,t){return(e=e.toString())&&!n(e)&&!o(e)&&-1===e.indexOf("cookienator")&&!t.some((function(t){return t.test(e)}))};var r,s=function(){function e(){}return e.show=function(e){this.container||(this.container=document.createElement("div"),Object.assign(this.container.style,{position:"fixed",right:"32px",bottom:"32px",backgroundColor:"var(--cookienator-dialog-background-color, #fff)",color:"var(--cookienator-color, #444)",padding:"32px",borderRadius:"6px",fontSize:"16px",boxShadow:"0 4px 10px rgba(0,0,0,.3)",zIndex:"9999",whiteSpace:"pre-line"}),document.body.appendChild(this.container));var t=document.createElement("div");t.textContent=e,this.container.appendChild(t)},e.clear=function(){var e;null===(e=this.container)||void 0===e||e.remove(),this.container=null},e.container=null,e}(),a=function(e,t){var n;null===(n=t.parentNode)||void 0===n||n.insertBefore(e,t.nextSibling)};!function(e){e.UpdateConfiguration="cookienator:update-configuration",e.ShowConfigurator="cookienator:show-configurator",e.UnblockAllSuccess="cookienator:unblock-all-success"}(r||(r={}));var c,d,u,l=(c=function(e,t){var n;n=function(){function e(){for(var e=0,t={};e<arguments.length;e++){var n=arguments[e];for(var o in n)t[o]=n[o]}return t}function t(e){return e.replace(/(%[0-9A-Z]{2})+/g,decodeURIComponent)}return function n(o){function i(){}function r(t,n,r){if("undefined"!=typeof document){"number"==typeof(r=e({path:"/"},i.defaults,r)).expires&&(r.expires=new Date(1*new Date+864e5*r.expires)),r.expires=r.expires?r.expires.toUTCString():"";try{var s=JSON.stringify(n);/^[\{\[]/.test(s)&&(n=s)}catch(e){}n=o.write?o.write(n,t):encodeURIComponent(String(n)).replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g,decodeURIComponent),t=encodeURIComponent(String(t)).replace(/%(23|24|26|2B|5E|60|7C)/g,decodeURIComponent).replace(/[\(\)]/g,escape);var a="";for(var c in r)r[c]&&(a+="; "+c,!0!==r[c]&&(a+="="+r[c].split(";")[0]));return document.cookie=t+"="+n+a}}function s(e,n){if("undefined"!=typeof document){for(var i={},r=document.cookie?document.cookie.split("; "):[],s=0;s<r.length;s++){var a=r[s].split("="),c=a.slice(1).join("=");n||'"'!==c.charAt(0)||(c=c.slice(1,-1));try{var d=t(a[0]);if(c=(o.read||o)(c,d)||t(c),n)try{c=JSON.parse(c)}catch(e){}if(i[d]=c,e===d)break}catch(e){}}return e?i[e]:i}}return i.set=r,i.get=function(e){return s(e,!1)},i.getJSON=function(e){return s(e,!0)},i.remove=function(t,n){r(t,"",e(n,{expires:-1}))},i.defaults={},i.withConverter=n,i}((function(){}))},e.exports=n()},c(u={path:d,exports:{},require:function(e,t){return function(){throw new Error("Dynamic requires are not currently supported by @rollup/plugin-commonjs")}(null==t&&u.path)}},u.exports),u.exports),p=new(function(){function e(){var t=l.get(e.COOKIE_NAME),n=t?JSON.parse(t):void 0;this.configured=void 0!==n,this.measurement=!!(null==n?void 0:n.measurement),this.advertising=!!(null==n?void 0:n.advertising)}return e.prototype.isConfigured=function(){return this.configured},e.prototype.isMeasurement=function(){return this.measurement},e.prototype.isAdvertising=function(){return this.advertising},e.prototype.setAccepted=function(t,n){l.set(e.COOKIE_NAME,JSON.stringify({measurement:t,advertising:n}),{expires:365,sameSite:"Lax",secure:!1}),this.measurement=t,this.advertising=n,this.configured=!0},e.COOKIE_NAME="cookienator-consent-v3",e}()),h=function(){function e(e){var t=document.documentElement.getAttribute("lang");if(!t){var n=location.hostname.split(".");2===n[0].length&&(t=n[0])}t||(t=function(){var e=window.navigator;if(e.languages)for(var t=0,n=e.languages;t<n.length;t++)if((r=n[t]).length>=2)return r.substr(0,2);for(var o=0,i=["language","browserLanguage","systemLanguage","userLanguage"];o<i.length;o++){var r;if((r=e[i[o]])&&r.length>=2)return r.substr(0,2)}return null}()),this.catalog=t&&t in e?e[t]:e.en}return e.prototype.trans=function(e,t){var n=e in this.catalog?this.catalog[e]:e;return t&&Object.getOwnPropertyNames(t).forEach((function(e){n=n.replace(e,t[e])})),n},e}(),f={en:{"placeholder.btn":"Cookie Settings","placeholder.text":"An element has been blocked because of your cookie settings. To see it, please accept cookies."},ca:{"placeholder.btn":"Configura cookies","placeholder.text":"S'ha bloquejat un element per la teva configuració de cookies. Cal acceptar les cookies per veure'l."},es:{"placeholder.btn":"Configurar cookies","placeholder.text":"Se ha bloqueado un elemento por tu configuración de cookies. Es necesario aceptar las cookies para verlo."},eu:{"placeholder.btn":"Cookieak konfiguratu","placeholder.text":"Elementu bat blokeatu da zure cookieen konfigurazioagatik. Ikusteko, cookieak onartu behar dira."},gl:{"placeholder.btn":"Configurar cookies","placeholder.text":"Bloqueouse un elemento pola túa configuración de cookies. É necesario aceptar as cookies para velo."}},m={forbiddenTags:["script","iframe","embed","img","video","audio","source","track","input"],placeholderTags:["iframe","embed","img","video","audio"],scriptTypeAttribute:"javascript/blocked",blockedSrcAttribute:"data-blocked-src",placeholder:!1,whiteList:[/jquery(?:-ui|-[0-9.]+)(?:\.min)?\.js$/],providers:[],forceRefreshOnAccept:!1,unknownProvidersEndpoint:"",debugMode:!1},g=function(){function t(t){var n=this;this.nativeCreateElement=document.createElement.bind(document),this.fragment=document.createDocumentFragment(),this.blockedElements=new Map,this.isActive=!1,this.unknownProviders=[],this.sendedUnknownProviders=[],this.isWindowLoaded=!1,this.settings=e(e({},m),t||{}),this.translator=new h(f),this.debouncedSendUnknowProviders=function(e,t){var n;return function(){for(var o=[],i=0;i<arguments.length;i++)o[i]=arguments[i];clearTimeout(n),n=setTimeout((function(){return e.apply(void 0,o)}),t)}}((function(){return n.sendUnknownProviders()}),800)}return t.prototype.init=function(){!this.settings.debugMode&&p.isMeasurement()||(this.activate(),this.setupListeners())},t.prototype.activate=function(){this.isActive=!0,this.monkeyPatchCreateElement(),this.setupMutationObserver(),this.monkeyPatchAjax()},t.prototype.deactivate=function(){var e,t=this;this.isActive=!1,this.settings.forceRefreshOnAccept?window.location.reload():(null===(e=this.observer)||void 0===e||e.disconnect(),document.createElement=this.nativeCreateElement,this.blockedElements.forEach((function(e,n){e.placeholder&&(a(e.element,e.placeholder),e.placeholder.remove()),"SCRIPT"===e.element.tagName&&t.settings.scriptTypeAttribute===e.element.getAttribute("type")&&e.element.setAttribute("type","application/javascript");var o=e.element.getAttribute(t.settings.blockedSrcAttribute);o&&e.element.setAttribute("src",o),e.element.removeAttribute(t.settings.blockedSrcAttribute),t.blockedElements.delete(n)})),document.dispatchEvent(new Event(r.UnblockAllSuccess)))},t.prototype.monkeyPatchAjax=function(){var e=this,t=window.fetch;t&&(window.fetch=function(n,o){var r="string"==typeof n?n:n.url;return e.addUnknowUrls(r),!p.isMeasurement()&&i(r,e.settings.whiteList)?new Promise((function(){})):t.apply(this,[n,o])});var n=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(t,o){return e.addUnknowUrls(o),!p.isMeasurement()&&i(o,e.settings.whiteList)&&(this.send=function(){}),n.apply(this,arguments)};var o=navigator.sendBeacon;o&&(navigator.sendBeacon=function(t,n){return e.addUnknowUrls(t),!(!p.isMeasurement()&&i(t,e.settings.whiteList))&&o.apply(this,[t,n])})},t.prototype.monkeyPatchCreateElement=function(){var t=this,n=this;document.createElement=function(o,r){var s=t.nativeCreateElement(o,r);if(!t.isTagForbidden(s.tagName))return s;var a=s.setAttribute.bind(s);try{var c=Object.getOwnPropertyDescriptor(Object.getPrototypeOf(s),"src");Object.defineProperties(s,{src:e(e({},c),{set:function(e){if(n.addUnknowUrls(e),p.isMeasurement()||!i(e,n.settings.whiteList))return a("src",e);a(n.settings.blockedSrcAttribute,e),s.removeAttribute("src"),n.addBlockedElement(s)}})}),s.setAttribute=function(e,t){"src"===e?s[e]=t:a(e,t)}}catch(e){}return s}},t.prototype.nodeHasValidSrc=function(e){return e instanceof HTMLElement&&e.hasAttribute("src")&&null!==e.getAttribute("src")},t.prototype.setupMutationObserver=function(){var e=this,t=this;this.observer=new MutationObserver((function(n){Array.prototype.forEach.call(n,(function(n){Array.prototype.forEach.call(n.addedNodes,(function(n){n instanceof HTMLElement&&(t.hasForbiddenClass(n)||e.isForbidden(n)&&n.hasAttribute("src")&&null!==n.getAttribute("src"))&&e.blockElementLoad(n)})),n.attributeName&&e.blockElementLoad(n.target)}))})),this.observer.observe(document.documentElement,{childList:!0,subtree:!0,attributes:!0,attributeFilter:["src"]})},t.prototype.setupListeners=function(){var e=this;document.addEventListener(r.UpdateConfiguration,(function(t){p.setAccepted(t.detail.measurement,t.detail.advertising),e.isActive&&p.isMeasurement()?e.deactivate():e.isActive||p.isMeasurement()||e.activate()})),this.settings.unknownProvidersEndpoint&&window.addEventListener("load",(function(){e.debouncedSendUnknowProviders(),e.isWindowLoaded=!0}))},t.prototype.isTagForbidden=function(e){return-1!==this.settings.forbiddenTags.indexOf(e.toLowerCase())},t.prototype.hasForbiddenClass=function(e){return e.classList.contains("cookienator-blocked")},t.prototype.isForbidden=function(e){return this.isTagForbidden(e.tagName)||this.hasForbiddenClass(e)},t.prototype.blockElementLoad=function(e){var t=this,n=e.getAttribute("src");if(p.isMeasurement())return null!==n&&this.addUnknowUrls(n),!0;if(!this.isBlocked(e)&&null!==n){if(p.isMeasurement()||!i(n,this.settings.whiteList)&&!this.hasForbiddenClass(e))return;switch(e.tagName){case"SCRIPT":e.setAttribute("type",this.settings.scriptTypeAttribute);var o=function(n){e.getAttribute("type")===t.settings.scriptTypeAttribute&&n.preventDefault(),e.removeEventListener("beforescriptexecute",o)};e.addEventListener("beforescriptexecute",o);break;case"IFRAME":var r=e;if(null!==r.contentWindow)try{r.contentWindow.stop()}catch(e){try{r.contentWindow.document.execCommand("Stop")}catch(e){}}}e.setAttribute(this.settings.blockedSrcAttribute,n),e.removeAttribute("src")}this.addBlockedElement(e,!0)},t.prototype.addBlockedElement=function(e,t){var n;void 0===t&&(t=!1),this.isBlocked(e)&&(n=this.blockedElements.get(e)),n||(n={element:e}),t&&!n.placeholder&&(n.placeholder=this.createPlaceholder(e),a(n.placeholder,e),this.fragment.appendChild(e)),this.blockedElements.set(e,n)},t.prototype.isBlocked=function(e){return this.blockedElements.has(e)},t.prototype.addUnknowUrls=function(e){try{var t=new URL(e);if(["http:","https:"].includes(t.protocol)&&!this.unknownProviders.includes(t.hostname))this.settings.providers.some((function(e){return t.hostname===e||t.hostname.endsWith("."+e)}))||(this.unknownProviders.push(t.hostname),this.isWindowLoaded&&this.debouncedSendUnknowProviders())}catch(e){}},t.prototype.sendUnknownProviders=function(){var e,t=this;if(this.settings.debugMode){if(!this.unknownProviders.length||!this.settings.unknownProvidersEndpoint)return!1;var n=this.unknownProviders.filter((function(e){return!t.sendedUnknownProviders.includes(e)}));s.show(n.join("\n"));var o={providers:n};if("navigator"in window&&navigator.sendBeacon)navigator.sendBeacon(this.settings.unknownProvidersEndpoint,JSON.stringify(o));else{var i=new XMLHttpRequest;i.open("POST",this.settings.unknownProvidersEndpoint,!0),i.withCredentials=!1,i.setRequestHeader("Content-Type","text/plain;charset=UTF-8"),i.send(JSON.stringify(o))}(e=this.sendedUnknownProviders).push.apply(e,n)}},t.prototype.createPlaceholder=function(e){var t;if(this.settings.placeholder&&(this.settings.placeholderTags.includes(e.tagName.toLowerCase())||this.hasForbiddenClass(e))){var n=document.createElement("div"),o=getComputedStyle(e),i=o.display.indexOf("inline")>-1?"inline-block":"block",s=Math.max(280,parseInt(o.width,10)),a=Math.max(140,parseInt(o.height,10));n.innerHTML='<div class="cookienator-placeholder" style="display:'+i+";width:"+s+"px;height:"+a+'px;"><div class="cookienator-placeholder-inner"><p class="cookienator-placeholder-text">'+this.translator.trans("placeholder.text")+'                 </p><button type="button" class="cookienator-placeholder-button">'+this.translator.trans("placeholder.btn")+"</button></div></div>";var c=n.children.item(0);return null===(t=c.querySelector("button"))||void 0===t||t.addEventListener("click",(function(e){document.dispatchEvent(new Event(r.ShowConfigurator))})),c}return document.createComment(e.tagName+": "+(e.getAttribute(this.settings.blockedSrcAttribute)||"no-src"))},t}(),v=[],b=[];!function(e,t){if(e&&"undefined"!=typeof document){var n,o=!0===t.prepend?"prepend":"append",i=!0===t.singleTag,r="string"==typeof t.container?document.querySelector(t.container):document.getElementsByTagName("head")[0];if(i){var s=v.indexOf(r);-1===s&&(s=v.push(r)-1,b[s]={}),n=b[s]&&b[s][o]?b[s][o]:b[s][o]=a()}else n=a();65279===e.charCodeAt(0)&&(e=e.substring(1)),n.styleSheet?n.styleSheet.cssText+=e:n.appendChild(document.createTextNode(e))}function a(){var e=document.createElement("style");if(e.setAttribute("type","text/css"),t.attributes)for(var n=Object.keys(t.attributes),i=0;i<n.length;i++)e.setAttribute(n[i],t.attributes[n[i]]);var s="prepend"===o?"afterbegin":"beforeend";return r.insertAdjacentElement(s,e),e}}(".cookienator-placeholder{box-sizing:border-box;color:#444;color:var(--cookies-color,#444);font-family:Arial,Helvetica,sans-serif;font-family:var(--cookies-font-family,Arial,Helvetica,sans-serif);font-size:14px;font-size:var(--cookies-font-size,14px);max-width:100%}.cookienator-placeholder-inner{-ms-flex-align:center;-ms-flex-pack:center;align-items:center;background-color:#f0f0f0;background-color:var(--cookies-placeholder-bg-color,#f0f0f0);box-sizing:border-box;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;height:100%;justify-content:center;padding:2em;width:100%}.cookienator-placeholder-text{line-height:1.3;margin:0;text-align:center}.cookienator-placeholder-button{-ms-flex-align:center;-ms-flex-pack:center;align-items:center;background-color:transparent;border:1.5px solid;border-radius:3px;cursor:pointer;display:-ms-inline-flexbox;display:inline-flex;font-family:inherit;font-size:inherit;font-weight:600;height:2.5em;justify-content:center;line-height:2.5rem;margin:2em 0 0;opacity:.6;padding:0 2em;transition:opacity .2s ease}.cookienator-placeholder-button:hover{opacity:1}",{}),new g(window.CookienatorSettings||{}).init()}));</script>
+
+                
+        
+                            <meta name="keywords" content="acomiadament, reclamacions, sancions, Seguretat Social, fixacions jornada, reclamació quantitat, advocada laboralista, advocada especialista, Barcelona">
+                            <meta name="description" content="Benvingut a Laboral Barcelona. Assessoria legal en acomiadaments, seguretat social i conflictes laborals. Advocada laboralista a Barcelona. T'escoltem!">
+                            <link rel="shortcut icon" href="../5751/favicon.ico">
+                
+                                                                            <link rel="alternate" hreflang="ca" href="index.htm">
+                                                                                        <link rel="alternate" hreflang="x-default" href="../es/index.htm">
+                                        <link rel="alternate" hreflang="es" href="../es/index.htm">
+                                    
+                    <link rel="canonical" href="index.htm">
+        
+                
+                <link rel="stylesheet" href="main-v2.min.css?v=1783589136">
+
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+                    <link href="../css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Forum:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        
+                <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.laboralbarcelona.com/ca/">
+        <meta property="og:site_name" content="laboralbarcelona">
+        <meta property="og:title" content="Especialista en acomiadaments, accidents, sancions laborals">
+                                            <meta property="og:description" content="Benvingut a Laboral Barcelona. Assessoria legal en acomiadaments, seguretat social i conflictes laborals. Advocada laboralista a Barcelona. T'escoltem!">
+        
+        
+                    
+            <meta property="og:image" content="https://images.gestionaweb.cat/5751/imgf-1200-630/logotipo-laboralbarcelona.png">
+            <link rel="image_src" href="../5751/imgf-1200-630/logotipo-laboralbarcelona.png">
+                    
+            <meta property="og:image" content="https://images.gestionaweb.cat/5751/imgf-1200-630/screenshot-20241105-213927-drive-1.jpg">
+            <link rel="image_src" href="../5751/imgf-1200-630/screenshot-20241105-213927-drive-1.jpg">
+                    
+            <meta property="og:image" content="https://images.gestionaweb.cat/5751/imgf-1200-630/adobestock-1177021257.jpg">
+            <link rel="image_src" href="../5751/imgf-1200-630/adobestock-1177021257.jpg">
+                    
+            <meta property="og:image" content="https://images.gestionaweb.cat/5751/imgf-1200-630/adobestock-1228918341.jpg">
+            <link rel="image_src" href="../5751/imgf-1200-630/adobestock-1228918341.jpg">
+                    
+            <meta property="og:image" content="https://images.gestionaweb.cat/5751/imgf-1200-630/adobestock-1266648000.jpg">
+            <link rel="image_src" href="../5751/imgf-1200-630/adobestock-1266648000.jpg">
+                    
+            <meta property="og:image" content="https://images.gestionaweb.cat/5751/imgf-1200-630/adobestock-1464751171.jpg">
+            <link rel="image_src" href="../5751/imgf-1200-630/adobestock-1464751171.jpg">
+        
+        
+                
+                                            <script type="application/ld+json">{
+    "@context": "http:\/\/schema.org",
+    "@type": "Organization",
+    "name": "Laboral Barcelona",
+    "url": "https:\/\/www.laboralbarcelona.com\/",
+    "logo": "https:\/\/images.gestionaweb.cat\/5751\/pimg-800-800\/logotipo-laboralbarcelona.png",
+    "telephone": "649297929",
+    "address": {
+        "@type": "PostalAddress",
+        "name": "Laboral Barcelona",
+        "streetAddress": "C\/Roger de Ll\u00faria 118, 4-1\u00aa",
+        "postalCode": "08037",
+        "addressLocality": "Barcelona",
+        "telephone": "649297929"
+    },
+    "location": {
+        "latitude": 41.3969257,
+        "longitude": 2.1641302,
+        "hasMap": "https:\/\/www.google.com\/maps\/search\/?api=1&query=41.3969257,2.1641302"
+    },
+    "sameAs": [
+        "https:\/\/www.linkedin.com\/feed\/",
+        "https:\/\/x.com\/i\/flow\/login?redirect_after_login=%2Festelasalou",
+        "https:\/\/www.tiktok.com\/@laboralbarcelona?_t=ZN-8zxx6ERSP2c&_r=1"
+    ]
+}</script>
+                    
+                
+        
+                    </head>
+
+    <body id="apt213552">
+                
+        <main class="offcanvas-wrapper">
+            <header class="offcanvas-header">
+                
+    <div class="offcanvas-header-logo">
+                    <a href="index.htm">
+                                                                <picture>
+                    <img loading="lazy" src="../5751/pqimg-240-240/logotipo-laboralbarcelona.png" srcset="../5751/pqimg-240-240/logotipo-laboralbarcelona.png 240w" sizes="240px" alt="laboralbarcelona">
+                </picture>
+            </a>
+            </div>
+<div class="offcanvas-header-links">
+            <ul class="offcanvas-header-icon-list">
+                                                <li>
+                        <a class="offcanvas-header-icon" href="tel:649297929" title="Telèfon de Laboral Barcelona">
+                            <span class="fc fc-phone-call-o"></span>
+                                                            <span class="sr-only">Telèfon de Laboral Barcelona</span>
+                                                    </a>
+                    </li>
+                                                                                    <li>
+                        <a class="offcanvas-header-icon" href="https://www.google.com/maps/dir/?api=1&destination=41.396926,2.164130" target="_blank" title="Localització de Laboral Barcelona">
+                            <span class="fc fc-map-marker-o"></span>
+                                                            <span class="sr-only">Localització de Laboral Barcelona</span>
+                                                    </a>
+                    </li>
+                                                            </ul>
+    </div>
+<div class="offcanvas-header-menu-toggle" data-offcanvas-toggle="menu-mobil">
+    <div class="offcanvas-header-menu-toggle-inner"></div>
+</div>
+            </header>
+            <aside class="offcanvas position-right" data-offcanvas="menu-mobil">
+                
+
+
+<div class="mobile-drawer">
+            <div class="mobile-lang">
+            <ul class="mobile-menu">
+                <li>
+                    <div class="mobile-lang-btn">
+                        <span class="mobile-menu-icon-left fc fc-globe-o"></span>
+                                                                                    Català
+                                                                                                                                <span class="mobile-menu-toggle fc fc-angle-up"></span>
+                    </div>
+                    <ul class="mobile-lang-list">
+                                                    <li>
+                                <a class="mobile-menu-item active" hreflang="ca" href="index.htm">Català</a>
+                            </li>
+                                                    <li>
+                                <a class="mobile-menu-item " hreflang="es" href="../es/index.htm" lang="es">Español</a>
+                            </li>
+                                            </ul>
+                </li>
+            </ul>
+        </div>
+    
+    <nav class="mobile-nav">
+        
+                    <ul class="mobile-menu mobile-menu-main">
+                    
+    
+                                    
+            
+            
+            <li class="" data-menu-toggle="">
+                <a href="index.htm" class="mobile-menu-item ">
+                                        Inici
+                                    </a>
+                            </li>
+                                
+            
+            
+            <li class="" data-menu-toggle="">
+                <a href="qui-soc/index.htm" class="mobile-menu-item ">
+                                        Qui Sóc
+                                    </a>
+                            </li>
+                                
+            
+            
+            <li class="" data-menu-toggle="">
+                <a href="que-fem/index.htm" class="mobile-menu-item ">
+                                        Què Fem
+                                    </a>
+                            </li>
+                                
+            
+            
+            <li class="" data-menu-toggle="">
+                <a href="noticies/index.htm" class="mobile-menu-item ">
+                                        Notícies
+                                    </a>
+                            </li>
+                                
+            
+            
+            <li class="" data-menu-toggle="">
+                <a href="contacte/index.htm" class="mobile-menu-item ">
+                                        Contacte
+                                    </a>
+                            </li>
+            
+            </ul>
+                            <ul class="mobile-menu mobile-menu-secondary">
+                    
+    
+                                    
+            
+            
+            <li class="" data-menu-toggle="">
+                <a href="avis-legal/index.htm" class="mobile-menu-item ">
+                                        Avís legal
+                                    </a>
+                            </li>
+                                
+            
+            
+            <li class="" data-menu-toggle="">
+                <a href="politica-de-privacitat/index.htm" class="mobile-menu-item ">
+                                        Política de privacitat
+                                    </a>
+                            </li>
+                                
+            
+            
+            <li class="" data-menu-toggle="">
+                <a href="politica-de-cookies/index.htm" class="mobile-menu-item ">
+                                        Política de cookies
+                                    </a>
+                            </li>
+                                
+            
+            
+            <li class="" data-menu-toggle="">
+                <a href="javascript:document.dispatchEvent(new Event('cookienator:show-configurator'));" class="mobile-menu-item ">
+                                        Configuració de cookies
+                                    </a>
+                            </li>
+                                
+            
+            
+            <li class="" data-menu-toggle="">
+                <a href="accessibilitat/index.htm" class="mobile-menu-item ">
+                                        Accessibilitat
+                                    </a>
+                            </li>
+                                
+            
+            
+            <li class="" data-menu-toggle="">
+                <a href="mapa-web/index.htm" class="mobile-menu-item ">
+                                        Mapa web
+                                    </a>
+                            </li>
+                                
+            
+            
+            <li class="" data-menu-toggle="">
+                <a href="contacta-ns/index.htm" class="mobile-menu-item ">
+                                        Contacta'ns
+                                    </a>
+                            </li>
+            
+            </ul>
+                                    <ul class="mobile-social">
+                                    <li>
+                        <a href="https://www.linkedin.com/feed/" rel="nofollow" target="_blank" class="fab fa-linkedin-in" title="Linkedin">
+                            <span class="sr-only">Linkedin laboralbarcelona</span>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Festelasalou" rel="nofollow" target="_blank" class="fab fa-x-twitter" title="X">
+                            <span class="sr-only">X laboralbarcelona</span>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="https://www.tiktok.com/@laboralbarcelona?_t=ZN-8zxx6ERSP2c&_r=1" rel="nofollow" target="_blank" class="fab fa-tiktok" title="TikTok">
+                            <span class="sr-only">TikTok laboralbarcelona</span>
+                        </a>
+                    </li>
+                            </ul>
+            </nav>
+</div>
+            </aside>
+            <section class="offcanvas-content h100" data-offcanvas-content="menu-mobil">
+                <div id="header" class="clearfix" data-fixed="true" data-fixed-over="false" data-fixed-opacity="">
+    
+            <div class="header-desktop-widgets">
+            
+    <div class="widget-list">
+                    <div class="widget-section m-hidden s-hidden widget-section--fluid gy-large gx-none flex-row" id="section-244447" style="z-index:100">
+                
+                
+                <div class="widget-section-content">
+                                        <div class="widget-section-content-content background-size-cover background-position-center-center" style="">
+                                                    <div class="widget-column flex-large-auto flex-medium-auto flex-small-12 py-small py-md-small py-sm-small px-small px-md-small px-sm-small flex-justify-center gy-medium" id="column-590905">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207356" class=" widget-item widget-type-logo">
+                                                                                                        <div class="text-left">
+        <a href='index.htm' title="laboralbarcelona">
+                            <img src="../5751/pqimg-640-640/logotipo-laboralbarcelona.png" alt="laboralbarcelona">
+                    </a>
+    </div>
+            <style>#widget-1207356 img{width:120px}</style>
+    
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                        <div class="widget-column flex-large-expand flex-medium-expand flex-small-12 py-none py-md-none py-sm-none px-medium px-md-medium px-sm-medium flex-justify-center gy-medium" id="column-590906">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207357" class=" widget-item widget-type-menu-dropdown">
+                                                                                                        <ul class="menu-dropdown sf-menu flex-justify-right">
+                    <li>
+                <a href="index.htm">
+                                        Inici
+                                    </a>
+                            </li>
+                    <li>
+                <a href="qui-soc/index.htm">
+                                        Qui Sóc
+                                    </a>
+                            </li>
+                    <li>
+                <a href="que-fem/index.htm">
+                                        Què Fem
+                                    </a>
+                            </li>
+                    <li>
+                <a href="noticies/index.htm">
+                                        Notícies
+                                    </a>
+                            </li>
+                    <li>
+                <a href="contacte/index.htm">
+                                        Contacte
+                                    </a>
+                            </li>
+            </ul>
+            <style>#widget-1207357{font-size:15px;font-weight:600}#widget-1207357>ul>li>a{padding:15px 20px;color:#000}#widget-1207357>ul>li:hover>a{color:#8f713d;border-bottom:2px solid #8f713d!important;margin-bottom:-2px}#widget-1207357>ul>li.active>a{color:#8f713d;border-bottom:2px solid #8f713d!important;margin-bottom:-2px}#widget-1207357>ul ul a{padding:15px 20px}</style>
+    
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                        <div class="widget-column flex-large-auto flex-medium-auto flex-small-12 py-none py-md-none py-sm-none px-medium px-md-medium px-sm-medium flex-justify-center gy-medium" id="column-590907">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207358" class=" widget-item widget-type-social-list">
+                                                                                                        <ul class="social-list social-list--style-icon flex-justify-right">
+                    <li>
+                <a rel="nofollow" target="_blank" href="https://www.linkedin.com/feed/" title="Linkedin">
+                    <span class="social-item-icon fab fa-linkedin-in"></span>
+                    <span class="sr-only">Linkedin </span>
+                </a>
+            </li>
+                    <li>
+                <a rel="nofollow" target="_blank" href="https://x.com/i/flow/login?redirect_after_login=%2Festelasalou" title="X">
+                    <span class="social-item-icon fab fa-x-twitter"></span>
+                    <span class="sr-only">X </span>
+                </a>
+            </li>
+                    <li>
+                <a rel="nofollow" target="_blank" href="https://www.tiktok.com/@laboralbarcelona?_t=ZN-8zxx6ERSP2c&_r=1" title="TikTok">
+                    <span class="social-item-icon fab fa-tiktok"></span>
+                    <span class="sr-only">TikTok </span>
+                </a>
+            </li>
+            </ul>
+            <style>#widget-1207358{font-size:15px}#widget-1207358 a{color:#000}#widget-1207358 a:hover{color:#8f713d}</style>
+    
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                        <div class="widget-column flex-large-auto flex-medium-auto flex-small-12 py-none py-md-none py-sm-none px-small px-md-small px-sm-small flex-justify-center gy-medium" id="column-590908">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207359" class=" widget-item widget-type-language-dropdown">
+                                                                                                        <ul class="language-dropdown sf-menu language-dropdown--content- flex-justify-right">
+        <li>
+                                                                                    <p class="language-dropdown-text">
+                                                            <span class="text-uppercase">ca</span>
+                                                    </p>
+                                                                                                                <span class="language-dropdown-angle fal fa-angle-down"></span>
+                        <ul>
+                                    <li class="active">
+                        <a hreflang="ca" href="index.htm" title="Català">
+                                                            <span class="text-uppercase">ca</span>
+                                                    </a>
+                    </li>
+                                    <li>
+                        <a lang="es" hreflang="es" href="../es/index.htm" title="Español">
+                                                            <span class="text-uppercase">es</span>
+                                                    </a>
+                    </li>
+                            </ul>
+        </li>
+    </ul>
+            <style>#widget-1207359 .language-dropdown-icon{font-size:18px;color:#000}#widget-1207359>ul>li{font-size:15px;color:#000}#widget-1207359>ul ul a{padding:10px 20px;color:#c8b274;background-color:#000}#widget-1207359>ul ul a:hover{color:#000;background-color:#c8b274}</style>
+    
+
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                </div>
+                </div>
+                                    <style>#section-244447{background-color:#fff}</style>
+                            </div>
+                    <div class="widget-section m-hidden s-hidden widget-section--fluid gy-small gx-small flex-row" id="section-244453" style="z-index:99">
+                
+                
+                <div class="widget-section-content">
+                                        <div class="widget-section-content-content background-size-cover background-position-center-center" style="">
+                                                    <div class="widget-column flex-large-12 flex-medium-12 flex-small-12 py-none py-md-none py-sm-none px-none px-md-none px-sm-none flex-justify-top gy-medium" id="column-590926">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207387" class=" widget-item widget-type-separator">
+                                                                                                        <hr class="separator separator--orientation-horizontal separator--style-solid separator--size-2 separator--width-100 separator--align-center">
+            <style>#widget-1207387 hr{border-color:#c8b274}</style>
+    
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                </div>
+                </div>
+                            </div>
+            </div>
+        </div>
+    </div>
+                
+    <div id="home">
+        
+        
+    <div class="widget-list">
+                    <div class="widget-section widget-section--fluid background-size-cover background-position-center-left gy-small gx-small flex-row" id="section-244479">
+                
+                
+                <div class="widget-section-content">
+                                        <div class="widget-section-content-content background-size-cover background-position-center-center" style="">
+                                                    <div class="widget-column flex-large-4 flex-medium-12 flex-small-12 py-medium py-md-medium py-sm-medium px-large px-md-large px-sm-large flex-justify-top gy-medium" id="column-591001">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207532" class=" widget-item widget-type-title">
+                                                                                                        <h1 class="title1 text-left" style="color:#ffffff;">
+    LA TEVA TRANQUIL·LITAT, LA MEVA PRIORITAT    </h1>
+    
+
+                                                                                            </div>
+                                                                                    
+                                            <div id="widget-1207533" class=" widget-item widget-type-title">
+                                                                                                        <h2 class="title2 text-left" style="color:#ffffff;">
+    Assessoria laboral per a tu a Barcelona    </h2>
+    
+
+                                                                                            </div>
+                                                                                    
+                                            <div id="widget-1207541" class=" widget-item widget-type-button">
+                                                                                                        <div class="text-left">
+        <a href="que-fem/index.htm" class="btn btn--icon-left">
+            
+                            Més informació
+                                </a>
+                    <style>#widget-1207541 .btn{background-color:#fff;border:1px solid #fff;color:#000}#widget-1207541 .btn:hover{background-color:#c8b274;border:1px solid #c8b274;color:#000}</style>
+            </div>
+
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                        <div class="widget-column flex-large-8 flex-medium-8 flex-small-12 py-none py-md-none py-sm-none px-none px-md-none px-sm-none flex-justify-top gy-medium" id="column-591007">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                            </div>
+                                                                    </div>
+                                                </div>
+                </div>
+                                    <style>#section-244479{min-height:50vh;background-color:#000;background-image:url(../5751/pwimg-2560/adobestock-280248473.jpg)}</style>
+                            </div>
+                    <div class="widget-section widget-section--fluid py-xlarge py-md-xlarge py-sm-xlarge px-xlarge px-md-xlarge px-sm-xlarge gy-small gx-none flex-row" id="section-244497">
+                
+                
+                <div class="widget-section-content">
+                                        <div class="widget-section-content-content background-size-cover background-position-center-center" style="">
+                                                    <div class="widget-column flex-large-4 flex-medium-12 flex-small-12 py-none py-md-none py-sm-none px-none px-md-none px-sm-none flex-justify-center gy-medium" id="column-591044">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207594" class=" widget-item widget-type-image">
+                                                                                                            
+                
+            
+    <figure class="fluid">
+                    <img loading="lazy" src="../5751/img-480-639/screenshot-20241105-213927-drive-1.jpg" srcset="../5751/img-480-639/screenshot-20241105-213927-drive-1.jpg 480w, ../5751/img-640-852/screenshot-20241105-213927-drive-1.jpg 640w, ../5751/img-960-1277/screenshot-20241105-213927-drive-1.jpg 960w, ../5751/img-1024-1362/screenshot-20241105-213927-drive-1.jpg 1024w, ../5751/img-1280-1703/screenshot-20241105-213927-drive-1.jpg 1280w, ../5751/img-1600-2128/screenshot-20241105-213927-drive-1.jpg 1600w" alt="Dona&#x20;posant">
+                            </figure>
+    
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                        <div class="widget-column flex-large-6 flex-medium-12 flex-small-12 py-large py-md-large py-sm-large px-large px-md-large px-sm-large flex-justify-center gy-medium" id="column-591045">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207589" class=" widget-item widget-type-title">
+                                                                                                        <h2 class="title1 text-left">
+    Qui Sóc    </h2>
+    
+
+                                                                                            </div>
+                                                                                    
+                                            <div id="widget-1207590" class=" widget-item widget-type-text">
+                                                                                                        <div class="text text-columns-1 text-left">
+        <p><span style="font-size: 110%;">Estela Martín Urbano, advocada especialista en Dret del Treball i de la Seguretat Social, llicenciada en Dret per la UOC, professora de Dret Laboral del Màster d'Accés a l'Advocacia de la URV i professora de Dret de la Seguretat Social i Prevenció de Riscos Laborals a la UPF. Despatx professional a Barcelona, ​​encara que làmbit dactuació és a nivell de tot Catalunya. Col·laboro amb USOC a la seu de Tarragona on porto temes de Funció Pública.</span></p>
+    </div>
+
+
+                                                                                            </div>
+                                                                                    
+                                            <div id="widget-1207591" class=" widget-item widget-type-button">
+                                                                                                        <div class="text-left">
+        <a href="contacte/index.htm" class="btn btn--icon-left">
+            
+                            Reserva una consulta
+                                </a>
+                    <style>#widget-1207591 .btn{background-color:#fff0;border:1px solid #705729;color:#705729}#widget-1207591 .btn:hover{background-color:#705729;border:1px solid #705729;color:#fff}</style>
+            </div>
+
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                </div>
+                </div>
+                            </div>
+                    <div class="widget-section widget-section--fluid py-xlarge py-md-xlarge py-sm-xlarge px-xlarge px-md-xlarge px-sm-xlarge gy-medium gx-small flex-row" id="section-244520">
+                
+                
+                <div class="widget-section-content">
+                                        <div class="widget-section-content-content background-size-cover background-position-center-center" style="">
+                                                    <div class="widget-column flex-large-12 flex-medium-12 flex-small-12 py-none py-md-none py-sm-none px-none px-md-none px-sm-none flex-justify-top gy-none" id="column-591099">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207679" class=" widget-item widget-type-title">
+                                                                                                        <h2 class="title1 text-center">
+    Que Fem    </h2>
+    
+
+                                                                                            </div>
+                                                                                    
+                                            <div id="widget-1207685" class=" widget-item widget-type-title">
+                                                                                                        <h2 class="title2 text-center">
+    Solucions jurídiques a mida    </h2>
+    
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                        <div class="widget-column flex-large-12 flex-medium-12 flex-small-12 py-none py-md-none py-sm-none px-none px-md-none px-sm-none flex-justify-top gy-medium" id="column-591100">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207681" class=" widget-item widget-type-carousel">
+                                                                                                                            
+    
+                
+    
+                
+    
+                
+    
+    
+    
+    <div class="slide-basic slide-widget slide-basic--navigation-none slide-basic--navigation--medium-none slide-basic--navigation--small-none">
+        <div class="swiper-container" data-slide-count="4" data-autoplay="false" data-pagination="none" data-infinite="true" data-speed="5000" data-slides-per-view="4" data-slides-per-view-tablet="1" data-slides-per-view-mobile="1" data-spacing="8">
+            <div class="swiper-wrapper">
+                                    
+                    
+                    
+                    <div class="swiper-slide">
+                                                                                <img loading="lazy" class="swiper-image " src="../5751/img-480-480/adobestock-1177021257.jpg" srcset="../5751/img-480-480/adobestock-1177021257.jpg 480w, ../5751/img-640-640/adobestock-1177021257.jpg 640w, ../5751/img-960-960/adobestock-1177021257.jpg 960w, ../5751/img-1024-1024/adobestock-1177021257.jpg 1024w, ../5751/img-1280-1280/adobestock-1177021257.jpg 1280w, ../5751/img-1600-1600/adobestock-1177021257.jpg 1600w" alt="Reclamaci&#x00F3;&#x20;per&#x20;acomiadament&#x20;improcedent&#x20;o&#x20;nul" sizes="(max-width: 639px) 100vw, (max-width: 1023px) 100vw, 25vw">
+                                                    
+                                                                                                                        <div class="swiper-caption swiper-caption--center swiper-caption--text-center">
+                                        <div class="swiper-caption-box" style="color:#000000;">
+                                                                                            <p class="swiper-caption-title">
+                                                    Reclamació per acomiadament improcedent o nul
+                                                </p>
+                                                                                                                                </div>
+                                    </div>
+                                
+                                                                        </div>
+                                    
+                    
+                    
+                    <div class="swiper-slide">
+                                                                                <img loading="lazy" class="swiper-image " src="../5751/img-480-480/adobestock-1228918341.jpg" srcset="../5751/img-480-480/adobestock-1228918341.jpg 480w, ../5751/img-640-640/adobestock-1228918341.jpg 640w, ../5751/img-960-960/adobestock-1228918341.jpg 960w, ../5751/img-1024-1024/adobestock-1228918341.jpg 1024w, ../5751/img-1280-1280/adobestock-1228918341.jpg 1280w, ../5751/img-1600-1600/adobestock-1228918341.jpg 1600w" alt="Gesti&#x00F3;&#x20;de&#x20;conflictes&#x20;laborals" sizes="(max-width: 639px) 100vw, (max-width: 1023px) 100vw, 25vw">
+                                                    
+                                                                                                                        <div class="swiper-caption swiper-caption--center swiper-caption--text-center">
+                                        <div class="swiper-caption-box" style="color:#000000;">
+                                                                                            <p class="swiper-caption-title">
+                                                    Gestió de conflictes laborals
+                                                </p>
+                                                                                                                                </div>
+                                    </div>
+                                
+                                                                        </div>
+                                    
+                    
+                    
+                    <div class="swiper-slide">
+                                                                                <img loading="lazy" class="swiper-image " src="../5751/img-480-480/adobestock-1266648000.jpg" srcset="../5751/img-480-480/adobestock-1266648000.jpg 480w, ../5751/img-640-640/adobestock-1266648000.jpg 640w, ../5751/img-960-960/adobestock-1266648000.jpg 960w, ../5751/img-1024-1024/adobestock-1266648000.jpg 1024w, ../5751/img-1280-1280/adobestock-1266648000.jpg 1280w, ../5751/img-1600-1600/adobestock-1266648000.jpg 1600w" alt="Revisi&#x00F3;&#x20;i&#x20;Assessoria&#x20;sobre&#x20;contractes&#x20;laborals" sizes="(max-width: 639px) 100vw, (max-width: 1023px) 100vw, 25vw">
+                                                    
+                                                                                                                        <div class="swiper-caption swiper-caption--center swiper-caption--text-center">
+                                        <div class="swiper-caption-box" style="color:#000000;">
+                                                                                            <p class="swiper-caption-title">
+                                                    Revisió i Assessoria sobre contractes laborals
+                                                </p>
+                                                                                                                                </div>
+                                    </div>
+                                
+                                                                        </div>
+                                    
+                    
+                    
+                    <div class="swiper-slide">
+                                                                                <img loading="lazy" class="swiper-image " src="../5751/img-480-480/adobestock-1464751171.jpg" srcset="../5751/img-480-480/adobestock-1464751171.jpg 480w, ../5751/img-640-640/adobestock-1464751171.jpg 640w, ../5751/img-960-960/adobestock-1464751171.jpg 960w, ../5751/img-1024-1024/adobestock-1464751171.jpg 1024w, ../5751/img-1280-1280/adobestock-1464751171.jpg 1280w, ../5751/img-1600-1600/adobestock-1464751171.jpg 1600w" alt="Assist&#x00E8;ncia&#x20;a&#x20;negociacions&#x20;col&#x00B7;lectives" sizes="(max-width: 639px) 100vw, (max-width: 1023px) 100vw, 25vw">
+                                                    
+                                                                                                                        <div class="swiper-caption swiper-caption--center swiper-caption--text-center">
+                                        <div class="swiper-caption-box" style="color:#000000;">
+                                                                                            <p class="swiper-caption-title">
+                                                    Assistència a negociacions col·lectives
+                                                </p>
+                                                                                                                                </div>
+                                    </div>
+                                
+                                                                        </div>
+                            </div>
+        </div>
+
+                    </div>
+            <style>#widget-1207681{color:#000}</style>
+    
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                </div>
+                </div>
+                                    <style>#section-244520{background-color:#f4f4f4}</style>
+                            </div>
+                    <div class="widget-section widget-section--fluid py-xlarge py-md-xlarge py-sm-xlarge px-xlarge px-md-xlarge px-sm-xlarge gy-small gx-small flex-row" id="section-244540">
+                
+                
+                <div class="widget-section-content">
+                                        <div class="widget-section-content-content background-size-cover background-position-center-center" style="">
+                                                    <div class="widget-column flex-large-12 flex-medium-12 flex-small-12 py-none py-md-none py-sm-none px-none px-md-none px-sm-none flex-justify-top gy-small" id="column-591148">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207768" class=" widget-item widget-type-title">
+                                                                                                        <h2 class="title1 text-center">
+    Actualitat Laboral    </h2>
+    
+
+                                                                                            </div>
+                                                                                    
+                                            <div id="widget-1207782" class=" widget-item widget-type-title">
+                                                                                                        <h2 class="title2 text-center">
+    Informació rellevant per a treballadors i empreses    </h2>
+    
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                        <div class="widget-column flex-large-12 flex-medium-12 flex-small-12 py-none py-md-none py-sm-none px-none px-md-none px-sm-none flex-justify-top gy-medium" id="column-591154">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207781" class=" widget-item widget-type-news-items">
+                                                                                                        <div class="grid-12">
+                        
+        
+    
+            
+            
+                                
+    <ul class="flex-row grid-12 item-list item-list-image-top  left item-list-widget">
+                                                
+                                        
+                                        
+            <li class="flex-small-12 flex-medium-6 flex-large-6  padded-inner">
+                                <a href="noticies/abus-temporalitat/index.htm">
+                    
+                    <div class="item">
+                                                
+                                                    <div class="img item-img-top ">
+                                                                    
+                                    
+                                    
+                                    
+                                                                        <picture>
+                                        <source media="(min-width:1024px)" srcset="../5751/img-480-270/gemini-generated-image-17tdo717tdo717td.png 480w, ../5751/img-640-360/gemini-generated-image-17tdo717tdo717td.png 640w, ../5751/img-960-540/gemini-generated-image-17tdo717tdo717td.png 960w, ../5751/img-1024-576/gemini-generated-image-17tdo717tdo717td.png 1024w, ../5751/img-1280-720/gemini-generated-image-17tdo717tdo717td.png 1280w, ../5751/img-1600-900/gemini-generated-image-17tdo717tdo717td.png 1600w">
+                                        <source media="(min-width:640px)" srcset="../5751/img-480-270/gemini-generated-image-17tdo717tdo717td.png 480w, ../5751/img-640-360/gemini-generated-image-17tdo717tdo717td.png 640w, ../5751/img-960-540/gemini-generated-image-17tdo717tdo717td.png 960w, ../5751/img-1024-576/gemini-generated-image-17tdo717tdo717td.png 1024w">
+                                        <img loading="lazy" src="../5751/img-480-270/gemini-generated-image-17tdo717tdo717td.png" srcset="../5751/img-480-270/gemini-generated-image-17tdo717tdo717td.png 480w, ../5751/img-640-360/gemini-generated-image-17tdo717tdo717td.png 640w, ../5751/img-960-540/gemini-generated-image-17tdo717tdo717td.png 960w" sizes="(max-width: 480px) 100vw, (max-width: 800px) 50vw, 50vw" alt="imagen abuso temporalidad">
+                                    </picture>
+                                
+                                                            </div>
+                        
+                                                                                                
+                                                    <div class="txt">
+                                                                    <span class="data">08/03/2026</span>
+                                
+                                                                    <p class="item-title title5">
+                                        Abús temporalitat
+                                    </p>
+                                
+                                
+                                
+                                                            </div>
+                        
+                        
+                                            </div>
+                                    </a>
+                            </li>
+                                                
+                                        
+                                        
+            <li class="flex-small-12 flex-medium-6 flex-large-6  padded-inner">
+                                <a href="noticies/exoneracio-de-deute-heretat/index.htm">
+                    
+                    <div class="item">
+                                                
+                                                    <div class="img item-img-top ">
+                                                                    
+                                    
+                                    
+                                    
+                                                                        <picture>
+                                        <source media="(min-width:1024px)" srcset="../5751/img-480-270/gemini-generated-image-49yfav49yfav49yf.png 480w, ../5751/img-640-360/gemini-generated-image-49yfav49yfav49yf.png 640w, ../5751/img-960-540/gemini-generated-image-49yfav49yfav49yf.png 960w, ../5751/img-1024-576/gemini-generated-image-49yfav49yfav49yf.png 1024w, ../5751/img-1280-720/gemini-generated-image-49yfav49yfav49yf.png 1280w, ../5751/img-1600-900/gemini-generated-image-49yfav49yfav49yf.png 1600w">
+                                        <source media="(min-width:640px)" srcset="../5751/img-480-270/gemini-generated-image-49yfav49yfav49yf.png 480w, ../5751/img-640-360/gemini-generated-image-49yfav49yfav49yf.png 640w, ../5751/img-960-540/gemini-generated-image-49yfav49yfav49yf.png 960w, ../5751/img-1024-576/gemini-generated-image-49yfav49yfav49yf.png 1024w">
+                                        <img loading="lazy" src="../5751/img-480-270/gemini-generated-image-49yfav49yfav49yf.png" srcset="../5751/img-480-270/gemini-generated-image-49yfav49yfav49yf.png 480w, ../5751/img-640-360/gemini-generated-image-49yfav49yfav49yf.png 640w, ../5751/img-960-540/gemini-generated-image-49yfav49yfav49yf.png 960w" sizes="(max-width: 480px) 100vw, (max-width: 800px) 50vw, 50vw" alt="exoneración deudas">
+                                    </picture>
+                                
+                                                            </div>
+                        
+                                                                                                
+                                                    <div class="txt">
+                                                                    <span class="data">08/03/2026</span>
+                                
+                                                                    <p class="item-title title5">
+                                        Exoneració de deute heretat
+                                    </p>
+                                
+                                
+                                
+                                                            </div>
+                        
+                        
+                                            </div>
+                                    </a>
+                            </li>
+            </ul>
+    </div>
+            <style>#widget-1207781 .data{display:block}</style>
+    
+
+                                                                                            </div>
+                                                                                    
+                                            <div id="widget-1207924" class=" widget-item widget-type-button">
+                                                                                                        <div class="text-center">
+        <a href="noticies/index.htm" class="btn btn--icon-left">
+            
+                            Veure més notícies
+                                </a>
+                    <style>#widget-1207924 .btn{background-color:#fff0;border:1px solid #6f5729;color:#6f5729}#widget-1207924 .btn:hover{background-color:#6f5729;border:1px solid #6f5729;color:#fff}</style>
+            </div>
+
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                </div>
+                </div>
+                            </div>
+                    <div class="widget-section widget-section--fluid py-xlarge py-md-xlarge py-sm-xlarge px-xlarge px-md-xlarge px-sm-xlarge gy-small gx-large flex-row" id="section-244551">
+                
+                
+                <div class="widget-section-content">
+                                        <div class="widget-section-content-content background-size-cover background-position-center-center" style="">
+                                                    <div class="widget-column flex-large-6 flex-medium-12 flex-small-12 py-none py-md-none py-sm-none px-none px-md-none px-sm-none flex-justify-top gy-none" id="column-591175">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207836" class=" widget-item widget-type-title">
+                                                                                                        <h2 class="title1 text-left">
+    Contacta&#039;ns Avui    </h2>
+    
+
+                                                                                            </div>
+                                                                                    
+                                            <div id="widget-1207820" class=" widget-item widget-type-ubicacio-list">
+                                                                                                                <ul class="ubicacio ubicacio--medium-cols-1 ubicacio--large-cols-1 ubicacio-icones ubicacio-block ubicacio-align-left">
+                    <li>
+                            <p class="ubicacio-name">Laboral Barcelona</p>
+    
+            <div class="ubicacio-item-list">
+            <div class="ubicacio-item">
+                <div class="ubicacio-item-icon">
+                    <span class="fa fa-home"></span>
+                </div>
+                <div class="ubicacio-item-content">
+                                            <p class="ubicacio-item-line">
+                            <span class="fa fa-home"></span>
+                            C/Roger de Llúria 118, 4-1ª
+                                                            08037 Barcelona
+                                                    </p>
+                                    </div>
+            </div>
+        </div>
+    
+    <div class="ubicacio-item-list">
+                    <div class="ubicacio-item">
+                <div class="ubicacio-item-icon">
+                    <span class="fa fa-phone-alt"></span>
+                </div>
+                <div class="ubicacio-item-content">
+                    <p class="ubicacio-item-line">
+                        <span class="fa fa-phone-alt"></span>
+                        <span class="ubicacio-item-content-label">
+                            Tel.
+                        </span>
+                        <a href="tel:649297929" data-phone-tracking="">
+                            649297929
+                        </a>
+                                                    (600731362)
+                                            </p>
+                </div>
+            </div>
+        
+        
+        
+        
+        
+                    <div class="ubicacio-item">
+                <div class="ubicacio-item-icon">
+                    <span class="fa fa-envelope"></span>
+                </div>
+                <div class="ubicacio-item-content">
+                    <p class="ubicacio-item-line">
+                        <span class="fa fa-envelope"></span>
+                        <span class="mailme">
+                            estelamartinabogada[at]gmail[dot]com
+                        </span>
+                    </p>
+                </div>
+            </div>
+        
+        
+        
+        
+                    <div class="ubicacio-item ubicacio-horari">
+                <div class="ubicacio-item-icon">
+                    <span class="fa fa-clock-o"></span>
+                </div>
+                <div class="ubicacio-item-content">
+                    <div class="ubicacio-item-line">
+                        <span class="fa fa-clock-o"></span>
+                                                                            <div><p>9 a 15, tardes hores concertades L-V</p></div>
+                                            </div>
+                </div>
+            </div>
+            </div>
+
+            </li>
+            </ul>
+
+    
+
+                                                                                            </div>
+                                                                                    
+                                            <div id="widget-1207822" class=" widget-item widget-type-social-list">
+                                                                                                        <ul class="social-list social-list--style-icon flex-justify-left">
+                    <li>
+                <a rel="nofollow" target="_blank" href="https://www.linkedin.com/feed/" title="Linkedin">
+                    <span class="social-item-icon fab fa-linkedin-in"></span>
+                    <span class="sr-only">Linkedin </span>
+                </a>
+            </li>
+                    <li>
+                <a rel="nofollow" target="_blank" href="https://x.com/i/flow/login?redirect_after_login=%2Festelasalou" title="X">
+                    <span class="social-item-icon fab fa-x-twitter"></span>
+                    <span class="sr-only">X </span>
+                </a>
+            </li>
+                    <li>
+                <a rel="nofollow" target="_blank" href="https://www.tiktok.com/@laboralbarcelona?_t=ZN-8zxx6ERSP2c&_r=1" title="TikTok">
+                    <span class="social-item-icon fab fa-tiktok"></span>
+                    <span class="sr-only">TikTok </span>
+                </a>
+            </li>
+            </ul>
+            <style>#widget-1207822{font-size:22px}#widget-1207822 a{color:#000}#widget-1207822 a:hover{color:#705729}</style>
+    
+
+                                                                                            </div>
+                                                                                    
+                                            <div id="widget-1207821" class=" widget-item widget-type-ubicacio-map">
+                                                                                                                    <div class="cookienator-blocked">
+            <div class="map flex-video widescreen" data-map="map_widget_1207821" data-map-style="default" data-map-default-zoom="14" data-map-i18n1="Com&#x20;arribar-hi">
+                <div class="map-canvas" data-map-canvas=""></div>
+            </div>
+        </div>
+        <script type="application/json" data-map-items="map_widget_1207821">[{"id":9732,"nom":"Laboral Barcelona","adreca":"C\/Roger de Ll\u00faria 118, 4-1\u00aa","cp":"08037","poblacio":"Barcelona","telefon1":"649297929","telefon2":"","telefon3":"","email1":"estelamartinabogada@gmail.com","email2":"","email3":"","latitud":41.3969257,"longitud":2.1641302}]</script>
+    
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                        <div class="widget-column flex-large-6 flex-medium-12 flex-small-12 py-medium py-md-medium py-sm-medium px-medium px-md-medium px-sm-medium flex-justify-top gy-medium" id="column-591174">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207817" class=" widget-item widget-type-form">
+                                                                                                                
+<div class="pt5 custom grid-12 clearfix" id="form_widget-form-1">
+    <div class="clearfix">
+        <div class="grid-12 padded-reverse">
+            <div class="grid-12 padded-sides form-wizard-step" data-form-wizard-step="1">
+                <div class="form-bloc form-bloc-paragraf form-bloc-grid-12 s-grid-12 padded-inner-bottom">
+                    <p>Escriu-me directament per correu electrònic i et respondré al més aviat possible.</p>
+                </div>
+                <div class="form-bloc form-bloc-submit form-bloc-grid-12 s-grid-12 padded-inner-bottom">
+                    <a class="btn" href="mailto:estelamartinabogada@gmail.com?subject=Contacte%20des%20de%20la%20web">
+                        Escriu-me per correu
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    <style>#widget-1207817{color:#000}#widget-1207817 .lnk{color:#000}</style>
+            
+
+                                                                                            </div>
+                                                                            </div>
+                                                                            <style>#column-591174{overflow:hidden;border-radius:25px;background-color:#fff6e5}</style>
+                                                                    </div>
+                                                </div>
+                </div>
+                                    <style>#section-244551{background-color:#f4f4f4}</style>
+                            </div>
+            </div>
+    </div>
+
+                <div id="footer">
+            
+    <div class="widget-list">
+                    <div class="widget-section widget-section--fluid gy-small gx-small flex-row" id="section-244417">
+                
+                
+                <div class="widget-section-content">
+                                        <div class="widget-section-content-content background-size-cover background-position-center-center" style="">
+                                                    <div class="widget-column flex-large-expand flex-medium-expand flex-small-12 py-none py-md-none py-sm-none px-none px-md-none px-sm-none flex-justify-top gy-medium" id="column-590845">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207313" class=" widget-item widget-type-logo">
+                                                                                                        <div class="text-left">
+        <a href='index.htm' title="laboralbarcelona">
+                            <img src="../5751/pqimg-640-640/logotipo-abogada-minimalista-blanco-y-negro-1-2.png" alt="laboralbarcelona">
+                    </a>
+    </div>
+            <style>#widget-1207313 img{width:150px}</style>
+    
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                        <div class="widget-column flex-large-expand flex-medium-expand flex-small-12 m-hidden s-hidden py-none py-md-none py-sm-none px-none px-md-none px-sm-none flex-justify-center gy-medium" id="column-590893">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207335" class=" widget-item widget-type-menu-list">
+                                                                                                        <ul class="menu-list menu-list--direction-vertical menu-list--align-left menu-list--direction-md-vertical menu-list--align-md-left menu-list--direction-sm-vertical menu-list--align-sm-left">
+                    <li>
+                <a href="avis-legal/index.htm">
+                                        Avís legal
+                </a>
+            </li>
+                    <li>
+                <a href="politica-de-privacitat/index.htm">
+                                        Política de privacitat
+                </a>
+            </li>
+                    <li>
+                <a href="politica-de-cookies/index.htm">
+                                        Política de cookies
+                </a>
+            </li>
+                    <li>
+                <a href="javascript:document.dispatchEvent(new Event('cookienator:show-configurator'));">
+                                        Configuració de cookies
+                </a>
+            </li>
+                    <li>
+                <a href="accessibilitat/index.htm">
+                                        Accessibilitat
+                </a>
+            </li>
+                    <li>
+                <a href="mapa-web/index.htm">
+                                        Mapa web
+                </a>
+            </li>
+                    <li>
+                <a href="contacta-ns/index.htm">
+                                        Contacta'ns
+                </a>
+            </li>
+            </ul>
+            <style>#widget-1207335{font-size:15px;font-weight:400}#widget-1207335 a{color:#000}</style>
+    
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                        <div class="widget-column flex-large-4 flex-medium-4 flex-small-12 py-none py-md-none py-sm-none px-none px-md-none px-sm-none flex-justify-center gy-medium" id="column-590878">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207314" class=" widget-item widget-type-kitdigital">
+                                                                                                            <div class="logos-kd flex-justify-left">
+            <ul>
+        <li class="ue">
+            <img src="../0000/kit-digital/kd-ue-nextgeneration-black-positive.svg" alt="Financiat per l'Unió Europea NextGenerationEU">
+        </li>
+        <li class="govern">
+            <img src="../0000/kit-digital/kd-govern-black-positive.svg" alt="Govern d'Espanya">
+        </li>
+        <li class="plan">
+            <img src="../0000/kit-digital/kd-logo-plan-black-positive.svg" alt="Pla de Recuperació, Transformació i Resiliència">
+        </li>
+    </ul>
+
+    </div>
+
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                        <div class="widget-column flex-large-auto flex-medium-auto flex-small-12 py-none py-md-none py-sm-none px-medium px-md-medium px-sm-medium flex-justify-center gy-medium" id="column-590883">
+                                    
+                                    <div class="widget-column-content flex-row">
+                                                                                    
+                                            <div id="widget-1207321" class=" widget-item widget-type-copyright">
+                                                                                                            <div class="text-center">
+            <a href="https://www.hooba.com/es/" target="_blank" title="Hooba web">
+        <span class="fc fc-hooba-logotip"></span>
+        <span class="sr-only">Hooba web</span>
+    </a>
+
+                    <style>#widget-1207321 a{color:#000}</style>
+            </div>
+
+
+                                                                                            </div>
+                                                                            </div>
+                                                                    </div>
+                                                </div>
+                </div>
+                                    <style>#section-244417{background-color:#c8b274}</style>
+                            </div>
+            </div>
+    </div>
+
+            </section>
+            <div class="offcanvas-overlay"></div>
+        </main>
+
+        <div class="dialog">
+            <div class="dialogContainer dialog-inner m-grid-10 s-grid-12 clearfix">
+                <div class="dialogContent padded-inner ">
+                    <div class="dialogContentText"></div>
+                    <div class="dialogBottom"><button class="close btn">D'acord</button></div>
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="button-cookies button-cookies--position-bottom-left" title="Configuració de cookies">
+    <span class="fc fc-cookie"></span>
+</button>
+<style>.button-cookies{color:#FFF;background-color:#000;border:1px solid #000}</style>
+
+        <script>
+            var validate_messages = {
+                required: "Aquest camp és obligatori.",
+                email: "Si et plau, escriu un correu electrònic vàlid.",
+                number: "Si us plau, escriu un número valid",
+                equalTo: "Si us plau, escriu el mateix valor de nou.",
+                notEqualTo: "Si us plau, escriu un valor diferent.",
+                minlength: "Si us plau, no escriguis menys de {0} caràcters.",
+                password: "La contrasenya ha de tenir:<br>- entre 12 i 20 caràcters.<br>- com a mínim una majúscula.<br>- com a mínim una minúscula.<br>- com a mínim un número.<br>- com a mínim un caràcter especial: !@#$%^&*(){}[]_-.,;:+=<>'\"/|~`?€£¥.",
+                maxsize: "El fitxer supera la mida màxima de {0}.",
+                formmaxsize: "El conjunt de fitxers del formulari superen la mida màxima de {0}.",
+            };
+        </script>
+
+        <script src="../web/bundle/main.min.js?v=1781163157"></script>
+
+        
+        
+                            </body>
+</html>
